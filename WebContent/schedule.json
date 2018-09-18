@@ -1,0 +1,27 @@
+ [
+	{
+		"room": "sanctuary",
+		"days": [
+			{
+				"day": "Sunday",
+				"times": [
+					{
+						"startTime": 7.5,
+						"endTime": 10.5,
+						"comment": "First Service"
+					},
+					{
+						"startTime": 10.5,
+						"endTime": 11.0,
+						"comment": "Intermission"
+					},
+					{
+						"startTime": 11.0,
+						"endTime": 12.5,
+						"comment": "Second Service"
+					}
+				]
+			}
+		]
+	}
+]

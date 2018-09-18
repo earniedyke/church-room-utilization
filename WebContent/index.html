@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Church Room Utilization</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<style type="text/css">
+.row-header {
+	text-align: right;
+	padding-right: 2em;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>New Town UMC Room Utilization</h1>
+		<div class="jumbotron">
+			<form id="roomForm">
+				<div class="form-group">
+					<label for="roomInput" style="padding-right:10px;">Room</label><select id="roomInput"
+						onchange="roomInputChange()" class="input-medium"><option
+							value="">---Select a Room</option>
+						<option value="sanctuary">Sanctuary</option>
+						<option value="lobby">Lobby</option>
+						<option value="conference">Conference Room</option>
+						<option value="youth1">Youth 1</option>
+						<option value="youth2">Youth 2</option>
+						<option value="youth3">Youth 3</option>
+						<option value="ps1">Pre-school 1</option>
+						<option value="ps2">Pre-school 2</option>
+						<option value="ps3">Pre-school 3</option>
+						<option value="ps4">Pre-school 4</option></select>
+				</div>
+			</form>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div id="roomCalendar"></div>
+			</div>
+		</div>
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://chancejs.com/chance.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+		crossorigin="anonymous"></script>
+	<script src="taffy-min.js"></script>
+	<script src="main.js"></script>
+
+</body>
+</html>

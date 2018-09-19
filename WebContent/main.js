@@ -52,6 +52,18 @@ var scheduleDB = TAFFY([ {
 	"startTime" : 9.0,
 	"endTime" : 11.0,
 	"desc" : "Church Wide Study"
+}, {
+	"room" : "sanctuary",
+	"day" : "thursday",
+	"startTime" : 19.0,
+	"endTime" : 21.0,
+	"desc" : "Praise Team"
+}, {
+	"room" : "prayer",
+	"day" : "thursday",
+	"startTime" : 10.0,
+	"endTime" : 16.0,
+	"desc" : "Healing Center"
 } ])
 
 var days = [ "sunday", "monday", "tuesday", "wednesday", "thursday", "friday",
